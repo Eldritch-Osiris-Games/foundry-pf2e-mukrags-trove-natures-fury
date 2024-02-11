@@ -1,0 +1,53 @@
+{
+  "id": "murkrags-trove-natures-fury",
+  "title": "Murkrag's Trove of Nature's Fury",
+  "description": "We have dove into Murkrag's compendium to find a trove new of items for your Pathfinder 2e game! With 41 legendary new items, you can do something interesting for everyone. Perhaps you want a hammer that can break the ground with a single hit, a rope that can turn into a serpent, or perhaps a flute that summons animals to you. All of this and more are presented in this trove! With detailed art for each item, you can find an item that best suits you!",
+  "version": "1.0.0",
+  "manifest": "https://raw.githubusercontent.com/Eldritch-Osiris-Games/foundry-pf2e-mukrags-trove-natures-fury/main/module.json",
+  "download": "https://github.com/Eldritch-Osiris-Games/foundry-pf2e-mukrags-trove-natures-fury/archive/refs/heads/main.zip",
+  "url": "https://github.com/Eldritch-Osiris-Games/foundry-pf2e-mukrags-trove-natures-fury",
+  "authors": [
+    {
+      "name": "Eldritch Osiris Games"
+    }
+  ],
+  "packs": [
+    {
+      "label": "Effects",
+      "name": "MTNF-Effects",
+      "path": "packs/mtnf-effects",
+      "system": "pf2e",
+      "type": "Item"
+    },
+    {
+      "label": "Items",
+      "name": "MTNF-Items",
+      "path": "packs/mtnf-items",
+      "system": "pf2e",
+      "type": "Item"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Murkrag's Trove of Nature's Fury",
+      "sorting": "m",
+      "packs": ["MTNF-Items", "MTNF-Effects"]
+    }
+  ],
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "5.13.0"
+        }
+      }
+    ]
+  }
+}
