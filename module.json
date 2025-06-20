@@ -2,7 +2,7 @@
   "id": "murkrags-trove-natures-fury",
   "title": "Murkrag's Trove of Nature's Fury",
   "description": "We have dove into Murkrag's compendium to find a trove new of items for your Pathfinder 2e game! With 41 legendary new items, you can do something interesting for everyone. Perhaps you want a hammer that can break the ground with a single hit, a rope that can turn into a serpent, or perhaps a flute that summons animals to you. All of this and more are presented in this trove! With detailed art for each item, you can find an item that best suits you!",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "manifest": "https://raw.githubusercontent.com/Eldritch-Osiris-Games/foundry-pf2e-mukrags-trove-natures-fury/main/module.json",
   "download": "https://github.com/Eldritch-Osiris-Games/foundry-pf2e-mukrags-trove-natures-fury/archive/refs/heads/main.zip",
   "url": "https://github.com/Eldritch-Osiris-Games/foundry-pf2e-mukrags-trove-natures-fury",
@@ -36,7 +36,7 @@
   ],
   "compatibility": {
     "minimum": "11",
-    "verified": "11"
+    "verified": "13"
   },
   "relationships": {
     "systems": [
